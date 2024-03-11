@@ -1,4 +1,4 @@
-/* You should create four lines that look like this:
+/*  You should create four lines that look like this:
 
 _____________________________________________
 

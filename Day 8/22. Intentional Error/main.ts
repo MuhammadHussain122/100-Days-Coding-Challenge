@@ -4,5 +4,5 @@ to produce an index error. Make sure you correct the error before closing the pr
 */
 
 let guestList = ["Ali", "Hasnain", "Saleem", "Qurban","Akhtar"];
-console.log(guestList[6]); // Intentional error , index 6 is out of bound.
+console.log(guestList[6]); //  Intentional error , index 6 is out of bound.
 

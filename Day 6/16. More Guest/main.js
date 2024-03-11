@@ -1,4 +1,6 @@
-/* More Guests:
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+/*  More Guests:
 You just found a bigger dinner table, so now more space is
 available. Think of three more guests to invite to dinner.
 
@@ -12,14 +14,14 @@ you found bigger dinner table.
 • Print a new set of invitation messages, one for each person in your list.
 
 */
-var guestList = ["Ali", "Hasnain", "Saleem", "Qurban", "Akhtar"];
-var message = "I am glad to invite you for dinner";
+let guestList = ["Ali", "Hasnain", "Saleem", "Qurban", "Akhtar"];
+let message = "I am glad to invite you for dinner";
 console.log("Wow! I found more spaces for guest");
 guestList.unshift("Waqar");
 guestList.splice(3, 0, "Farooq");
 guestList.push("Ibrahim");
-guestList.forEach(function (guest) {
-    console.log("Dear ".concat(guest, ", ").concat(message, ","));
+guestList.forEach(guest => {
+    console.log(`Dear ${guest}, ${message},`);
 });
 /* OR
 for(let i =0; i< guestList.length; i++ )

@@ -1,4 +1,5 @@
-/*  Shrinking Guest List:
+"use strict";
+/*   Shrinking Guest List:
 You just found out that your new dinner table won’t arrive in time for the dinner, and you have space for only two guests.
 
 • Start with your program from Exercise 16. Add a new line that prints a message saying that you can invite only two people for dinner.
@@ -11,16 +12,17 @@ a message to that person letting them know you’re sorry you can’t invite the
 • Remove the last two names from your list, so you have an empty list. Print your list to make sure you actually have an empty list at the end
 of your program.
 */
-var guestList = ["Ali", "Hasnain", "Saleem", "Qurban", "Akhtar"];
+Object.defineProperty(exports, "__esModule", { value: true });
+let guestList = ["Ali", "Hasnain", "Saleem", "Qurban", "Akhtar"];
 console.log("I am soryy that I can invite only two of you all ");
 while (guestList.length > 2) {
-    var removedGuest = guestList.pop();
-    console.log("Dear ".concat(removedGuest, ", I am sorry I can't invite you to dinner"));
+    let removedGuest = guestList.pop();
+    console.log(`Dear ${removedGuest}, I am sorry I can't invite you to dinner`);
 }
-guestList.forEach(function (guest) {
-    console.log("Dear ".concat(guest, ", You are still invited to dinner"));
+guestList.forEach(guest => {
+    console.log(`Dear ${guest}, You are still invited to dinner`);
 });
-for (var i = 0; i < guestList.length; i++) {
+for (let i = 0; i < guestList.length; i++) {
     guestList.pop();
 }
 guestList.splice(0, guestList.length);

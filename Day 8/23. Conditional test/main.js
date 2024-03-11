@@ -1,4 +1,5 @@
-/* Conditional Tests:
+"use strict";
+/*  Conditional Tests:
 Write a series of conditional tests. Print a statement
 describing each test and your prediction for the results of each test. Your code
 should look something like this:
@@ -13,32 +14,33 @@ console.log(car == 'subaru')
 
 • Create at least 10 tests. Have at least 5 tests evaluate to True and another 5 tests evaluate to False.
 */
+Object.defineProperty(exports, "__esModule", { value: true });
 //Test 1 && Test 2
-var fullName = "Muhammad Hussain";
+let fullName = "Muhammad Hussain";
 console.log("Is fullName == 'Muhammad Hussain'? | predict True.");
 console.log(fullName == 'Muhammad Hussain');
 console.log("Is fullName == 'M Ali'? | predict false.");
 console.log(fullName == 'M Ali');
 //Test 3 && Test 4
-var Hussain = "Student";
+let Hussain = "Student";
 console.log("Is Hussain == 'Student'? | predict True.");
 console.log(Hussain == 'Student');
 console.log("Is Hussain == 'Barbar'? | predict false.");
 console.log(Hussain == 'Barbar');
 //Test 5 && Test 6
-var Student = "Hardworking";
+let Student = "Hardworking";
 console.log("Is Student == 'Hardworking'? | predict True.");
 console.log(Student == 'Hardworking');
 console.log("Is Student == 'Lazy'? | predict false.");
 console.log(Student == 'Lazy');
 //Test 7 && Test 8
-var Hardworking = "a good habit";
+let Hardworking = "a good habit";
 console.log("Is Harworking == 'a good habit'? | predict True.");
 console.log(Hardworking == 'a good habit');
 console.log("Is Harworking == 'bad habit'? | predict false.");
 console.log(Hardworking == 'bad habit');
 //Test 9 && Test 10
-var badHabit = "No Learning";
+let badHabit = "No Learning";
 console.log("Is badHabit == 'No Learning'? | predict True.");
 console.log(badHabit == 'No Learning');
 console.log("Is badHabit == 'Learning'? | predict false.");
