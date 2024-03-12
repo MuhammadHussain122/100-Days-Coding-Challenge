@@ -10,5 +10,4 @@ if (usernames.length === 0) {
     console.log("We need some users!");
 }
 else {
-    // 
 }
