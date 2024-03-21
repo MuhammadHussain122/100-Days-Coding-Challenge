@@ -8,7 +8,6 @@ making your code cleaner and more readable.
 function  rectangleArea(length: number, width: number):number{
     return length * width;
 };
-
 // Refactored into an arrow function
 let rectangleAreaArrow= (length: number, width: number, area?: number): number => length * width;
 console.log(rectangleAreaArrow(6,4));
