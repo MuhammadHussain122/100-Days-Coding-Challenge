@@ -6,5 +6,5 @@ to print a series of statements about these items, such as “I would like to ow
 */
 let carsList = ["Honda", "Tyota", "Macedes", "BMW"];
 carsList.forEach(car => {
-    console.log(`I would like to own a ${car}.`);
+    console.log(`I like ${car}.`);
 });

@@ -12,7 +12,6 @@ Your output should simply be four lines with the number 8 appearing once on each
 Object.defineProperty(exports, "__esModule", { value: true });
 let line1 = "_______________________________";
 let line2 = "_____";
-let line3 = "__";
 console.log(line1, 10 - 2);
 console.log(line2, 4 * 2);
 console.log(5 + 3);

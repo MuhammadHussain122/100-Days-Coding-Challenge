@@ -1,3 +1,4 @@
+"use strict";
 /* Multiline Template Literals:
 Use template literals to create a multiline string that describes your ideal day.
 Include at least three different activities.
@@ -5,5 +6,21 @@ Include at least three different activities.
 Explain & TIP: Template literals support multiline strings, making it easier to create readable text blocks that
 incorporate variables and expressions.
 */
-var dailyRoutine = " He said that his daily routine is:\n1. Get up early in the morning\n2. Offer prayer\n3. Have a breakfast\n4. Go to University\n6. Come back home\n7. Offer prayer\n8. Have a lunch\n9. Coding\n10. Reading\n11. Jogging\n12. offer prayer\n13. have a dinner\n14. Reading\n15. Coding\n16. Sleeping\n";
+Object.defineProperty(exports, "__esModule", { value: true });
+let dailyRoutine = ` He said that his daily routine is:
+1. Get up early in the morning
+2. Offer prayer
+3. Have a breakfast
+4. Go to University
+6. Come back home
+7. Offer prayer
+8. Have a lunch
+9. Reading
+10. Jogging
+11. offer prayer
+12. have a dinner
+13. Reading
+14. Coding
+15. Sleeping
+`;
 console.log(dailyRoutine);
