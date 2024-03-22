@@ -12,5 +12,5 @@ enum vehiclesType{
    jeep,
 }
 console.log(vehiclesType.cycle); // 0
-
+console.log(vehiclesType.bus);
 // note: enum starts from 0.
