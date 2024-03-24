@@ -25,5 +25,6 @@ let circle: Shape= {
     width: 10,
     length: 16,
 }
+
 console.log(circle);
 console.log(rectangle);

@@ -19,4 +19,5 @@ let student: studentInfo={
     age: 20,
     coursesName: ["ICT", "DLD", "DCCN", "OOP"],
 }
+
 console.log(student);
