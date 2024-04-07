@@ -1,4 +1,3 @@
-"use strict";
 /* No Users:
 Add an if test to Exercise 30 to make sure the list of users is not empty.
 
@@ -6,10 +5,10 @@ Add an if test to Exercise 30 to make sure the list of users is not empty.
 
 • Remove all of the usernames from your array, and make sure the correct message is printed.
 */
-Object.defineProperty(exports, "__esModule", { value: true });
 let usernames = [];
 if (usernames.length === 0) {
     console.log("We need some users!");
 }
 else {
 }
+export {};

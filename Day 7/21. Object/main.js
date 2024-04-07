@@ -1,8 +1,6 @@
-"use strict";
 /*  Think of something you could store in a TypeScript Object.
   Write a program that creates Objects containing these items.
 */
-Object.defineProperty(exports, "__esModule", { value: true });
 let student = {
     Name: "M Hussain",
     Roll_NO: 172347,
@@ -15,3 +13,4 @@ let student = {
 };
 console.log(`Name: ${student.Name}\n Roll No: ${student.Roll_NO}`);
 student.role();
+export {};

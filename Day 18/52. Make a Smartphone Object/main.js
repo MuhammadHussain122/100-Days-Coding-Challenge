@@ -1,4 +1,3 @@
-"use strict";
 /* Make a Smartphone Object:
 Create a simple way to keep track of a smartphone's details. Include its brand, model, and other key features
 like how much storage it has, the size of its screen, and how long its battery lasts.
@@ -6,7 +5,6 @@ like how much storage it has, the size of its screen, and how long its battery l
 Explain & TIP: Just like a box can contain smaller boxes, objects can contain other objects. This helps organize related
 information neatly.
 */
-Object.defineProperty(exports, "__esModule", { value: true });
 let smartphone = {
     brand: "Realme",
     model: "RMX3231",
@@ -17,3 +15,4 @@ let smartphone = {
     }
 };
 console.log(smartphone);
+export {};

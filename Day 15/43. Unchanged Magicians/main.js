@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 /* Unchanged Magicians:
 Start with your work from Exercise 42. Call the
 function make_great() with a copy of the array of magicians’ names. Because the
@@ -24,3 +22,4 @@ console.log("Original magicians:");
 show_magicians(magicians); // Shows original names
 console.log("Great magicians:");
 show_magicians(greatMagicians);
+export {};

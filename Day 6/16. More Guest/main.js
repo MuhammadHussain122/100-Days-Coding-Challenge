@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 /*  More Guests:
 You just found a bigger dinner table, so now more space is
 available. Think of three more guests to invite to dinner.
@@ -23,6 +21,7 @@ guestList.push("Ibrahim");
 guestList.forEach(guest => {
     console.log(`Dear ${guest}, ${message},`);
 });
+export {};
 /* OR
 for(let i =0; i< guestList.length; i++ )
 {

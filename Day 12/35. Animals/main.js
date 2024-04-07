@@ -1,4 +1,3 @@
-"use strict";
 /* Animals:
 Think of at least three different animals that have a common characteristic.
 Store the names of these animals in a list, and then use a for loop to
@@ -9,7 +8,6 @@ A dog would make a great pet.
 common. You could print a sentence such as Any of these animals would
 make a great pet!
 */
-Object.defineProperty(exports, "__esModule", { value: true });
 let animals = ["dogs", "cats", "rabbits"];
 console.log(animals);
 for (let i = 0; i < animals.length; i++) {
@@ -24,3 +22,4 @@ for (let i = 0; i < animals.length; i++) {
     }
 }
 console.log("Dog, cats and rabbits all are pets and can be trained. ");
+export {};

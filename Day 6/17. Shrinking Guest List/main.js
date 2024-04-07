@@ -1,4 +1,3 @@
-"use strict";
 /*   Shrinking Guest List:
 You just found out that your new dinner table won’t arrive in time for the dinner, and you have space for only two guests.
 
@@ -12,7 +11,6 @@ a message to that person letting them know you’re sorry you can’t invite the
 • Remove the last two names from your list, so you have an empty list. Print your list to make sure you actually have an empty list at the end
 of your program.
 */
-Object.defineProperty(exports, "__esModule", { value: true });
 let guestList = ["Ali", "Hasnain", "Saleem", "Qurban", "Akhtar"];
 console.log("I am soryy that I can invite only two of you all ");
 while (guestList.length > 2) {
@@ -27,3 +25,4 @@ for (let i = 0; i < guestList.length; i++) {
 }
 guestList.splice(0, guestList.length);
 console.log(guestList);
+export {};

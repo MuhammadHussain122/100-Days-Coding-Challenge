@@ -1,4 +1,3 @@
-"use strict";
 /*  Conditional Tests:
 Write a series of conditional tests. Print a statement
 describing each test and your prediction for the results of each test. Your code
@@ -14,7 +13,6 @@ console.log(car == 'subaru')
 
 • Create at least 10 tests. Have at least 5 tests evaluate to True and another 5 tests evaluate to False.
 */
-Object.defineProperty(exports, "__esModule", { value: true });
 //Test 1 && Test 2
 let fullName = "Muhammad Hussain";
 console.log("Is fullName == 'Muhammad Hussain'? | predict True.");
@@ -45,3 +43,4 @@ console.log("Is badHabit == 'No Learning'? | predict True.");
 console.log(badHabit == 'No Learning');
 console.log("Is badHabit == 'Learning'? | predict false.");
 console.log(badHabit == 'Learning');
+export {};

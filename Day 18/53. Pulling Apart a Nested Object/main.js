@@ -1,4 +1,3 @@
-"use strict";
 /* Pulling Apart a Nested Object:
 Imagine you have a list inside another list that shows what a computer programmer knows, like coding languages, tools,
 and software frameworks. Find a way to get three specific skills from this list and show them.
@@ -6,7 +5,6 @@ and software frameworks. Find a way to get three specific skills from this list 
 Explain & TIP: Breaking down a complex list into simpler parts makes it easier to work with and understand specific
 pieces of information.
 */
-Object.defineProperty(exports, "__esModule", { value: true });
 let programmerSkills = {
     languages: ["C", "Java", "Javascript", "Typescript", "Python",],
     tools: ["git", "github", "Webpack", "Docker"],
@@ -14,3 +12,4 @@ let programmerSkills = {
 };
 let { languages, tools, frameworks } = programmerSkills;
 console.log(`Languages: ${languages},\nTools: ${tools[1]},\nFrameworks: ${frameworks}`);
+export {};

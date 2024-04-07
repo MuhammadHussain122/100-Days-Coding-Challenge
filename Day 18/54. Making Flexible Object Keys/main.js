@@ -1,4 +1,3 @@
-"use strict";
 /* Making Flexible Object Keys:
 Learn how to set up a list where you can change the name of each section based on what you need at that moment,
 like adjusting labels based on user choices.
@@ -6,7 +5,6 @@ like adjusting labels based on user choices.
 Explain & TIP: This is like having labels you can rewrite anytime, which is great for when you need to adjust your list
 based on new information.
 */
-Object.defineProperty(exports, "__esModule", { value: true });
 // A way to make a flexible list
 function createObjectWithChangeableKey(property, value) {
     let changeableObject = {};
@@ -18,3 +16,4 @@ function createObjectWithChangeableKey(property, value) {
 let userPreference = createObjectWithChangeableKey("theme", "dark");
 // Showing the user's choice
 console.log(userPreference);
+export {};

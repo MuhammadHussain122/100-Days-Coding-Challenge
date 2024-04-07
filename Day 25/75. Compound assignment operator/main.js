@@ -1,9 +1,7 @@
-"use strict";
 /* Compound Assignment Operator:
 Use compound assignment operator to simplify arithmetic operations. Start with c = 6 and perform a series of
 operations(addition, subtraction, multiplication, division) on c using compound operators.
 */
-Object.defineProperty(exports, "__esModule", { value: true });
 function compoundAssignmentOperators() {
     let c = 6;
     console.log(`Initial value of c: ${c}`);
@@ -17,3 +15,4 @@ function compoundAssignmentOperators() {
     console.log(`Value of c after division: ${c}`);
 }
 compoundAssignmentOperators();
+export {};

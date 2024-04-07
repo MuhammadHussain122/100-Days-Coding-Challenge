@@ -1,4 +1,3 @@
-"use strict";
 /*  Seeing the World:
 Think of at least five places in the world you’d like to visit.
 • Store the locations in a array. Make sure the array is not in alphabetical order.
@@ -8,10 +7,10 @@ Think of at least five places in the world you’d like to visit.
 • Print your array in reverse alphabetical order without changing the order of the original list.
 • Show that your array is still in its original order by printing it again.
 */
-Object.defineProperty(exports, "__esModule", { value: true });
 let favoritePlaces = ["Singapor", "Dubai", "Iran", "Japan", "Murree"];
 console.log(`Array in Original order: ${favoritePlaces},\n`);
 let sortedList = favoritePlaces.sort();
 console.log(`Array in Alphabetical order: ${sortedList},\n`);
 let reversedSortedList = sortedList.sort().reverse();
 console.log(`Array in resversed Alphabetical order: ${reversedSortedList},\n`);
+export {};

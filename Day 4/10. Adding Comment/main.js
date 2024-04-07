@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 /*  Adding Comments:
 Choose two of the programs you’ve written, and add at least one comment to each. If you don’t have anything specific to write
 because your programs are too simple at this point, just add your name and the current date at the top of each program file. Then write one sentence
@@ -12,3 +10,4 @@ in another variable(message) and prints the message*/
 let favNum = 10;
 let message = `My favorite number is:  ${favNum}`;
 console.log(message);
+export {};

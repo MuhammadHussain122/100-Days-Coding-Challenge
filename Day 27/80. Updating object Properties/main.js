@@ -1,9 +1,7 @@
-"use strict";
 /* Updating Object Properties:
 Add a property named color to the existing car object, and then update the year property to 2020.
 Show how to perform these operation.
 */
-Object.defineProperty(exports, "__esModule", { value: true });
 //car object is created.
 let car = {
     make: "BMW",
@@ -18,3 +16,4 @@ console.log(`make: ${car.make}`);
 console.log(`model: ${car.model}`);
 console.log(`year: ${car.year}`);
 console.log(`color: ${car.color}`);
+export {};

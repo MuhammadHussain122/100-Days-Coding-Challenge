@@ -1,4 +1,3 @@
-"use strict";
 /* Alien Colors #3:
 Turn your if-else chain from Exercise 5-4 into an if-else chain.
 
@@ -10,7 +9,6 @@ Turn your if-else chain from Exercise 5-4 into an if-else chain.
 
 - Write three versions of this program, making sure each message is printed for the appropriate color alien.
 */
-Object.defineProperty(exports, "__esModule", { value: true });
 let alien_color = "green";
 // 1st version
 if (alien_color == "green") {
@@ -32,3 +30,4 @@ if (alien_color == "red") {
 }
 else {
 }
+export {};

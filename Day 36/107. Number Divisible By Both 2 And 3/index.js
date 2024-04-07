@@ -1,8 +1,6 @@
-"use strict";
 /* Number is divisible by 2 or 3:
 Write a condition using logical operators that checks if a number is divisible by both  2 and 3.
 */
-Object.defineProperty(exports, "__esModule", { value: true });
 function numberDivisiblity(num) {
     if (num % 2 === 0 && num % 3 === 0) {
         console.log(`${num} is divisible by both 2 and 3`);
@@ -24,3 +22,4 @@ numberDivisiblity(24);
 numberDivisiblity(22);
 numberDivisiblity(27);
 numberDivisiblity(23);
+export {};

@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 /*  Cars:
 Write a function that stores information about a car in a Object.
 The function should always receive a manufacturer and a model name. It
@@ -20,3 +18,4 @@ function create_car(manufacturer, model, ...properties) {
     console.log(car);
 }
 create_car("Tyota", "Corolla", ["color", "black"], ["speed", "280 km/h"]);
+export {};

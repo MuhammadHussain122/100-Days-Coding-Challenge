@@ -1,8 +1,6 @@
-"use strict";
 /* Days left until New Year
 Create a JavaScript snippet that calculates and logs how many days are left until New Year.
 */
-Object.defineProperty(exports, "__esModule", { value: true });
 function daysLeftUntilNewYear() {
     const currentDate = new Date();
     console.log(`Current Date: ${currentDate}`);
@@ -12,3 +10,4 @@ function daysLeftUntilNewYear() {
     return daysLeft;
 }
 console.log(`Days left until New Year: ${daysLeftUntilNewYear()}`);
+export {};

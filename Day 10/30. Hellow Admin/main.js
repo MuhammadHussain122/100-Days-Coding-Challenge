@@ -1,4 +1,3 @@
-"use strict";
 /* Hello Admin:
 Make a array of five or more usernames, including the name 'admin'. Imagine you are writing code that will print a greeting to each user
 after they log in to a website. Loop through the array, and print a greeting to each user:
@@ -7,7 +6,6 @@ after they log in to a website. Loop through the array, and print a greeting to 
 
 - Otherwise, print a generic greeting, such as Hello Eric, thank you for logging in again.
 */
-Object.defineProperty(exports, "__esModule", { value: true });
 let user_names = ["Admin", "Clerk", "Manager", "Customer", "Eric"];
 user_names.forEach(user_name => {
     if (user_name === "Admin") {
@@ -17,3 +15,4 @@ user_names.forEach(user_name => {
         console.log(`Hello ${user_name},thank you for logging again`);
     }
 });
+export {};

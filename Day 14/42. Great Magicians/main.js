@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 /* Great Magicians:
 Start with a copy of your program from Exercise 39.
 Write a function called make_great() that modifies the array of magicians by adding
@@ -19,3 +17,4 @@ function show_magicians(magicians) {
 }
 make_great(magicians);
 show_magicians(magicians);
+export {};

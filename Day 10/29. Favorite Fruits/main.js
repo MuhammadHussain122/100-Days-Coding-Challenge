@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 /* Favorite Fruits:
 Make a array of your favorite fruits, and then write a series of independent if statements that check for certain fruits in your array.
 
@@ -21,3 +19,4 @@ if (favorite_fruits.includes("PineApples")) {
 if (favorite_fruits.includes("Cherries")) {
     console.log("You really like cherries!");
 }
+export {};

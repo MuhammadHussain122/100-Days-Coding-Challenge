@@ -1,8 +1,6 @@
-"use strict";
 /* Random hexadecimal number:
 Create a function that generates a random hexadecimal color code.
 */
-Object.defineProperty(exports, "__esModule", { value: true });
 function randomHexColor() {
     const color = "#" +
         Math.floor(Math.random() * 0xffffff)
@@ -11,3 +9,4 @@ function randomHexColor() {
     return color;
 }
 console.log(randomHexColor());
+export {};

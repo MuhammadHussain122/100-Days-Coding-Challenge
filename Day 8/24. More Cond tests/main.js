@@ -1,4 +1,3 @@
-"use strict";
 /* More Conditional Tests:
 You don’t have to limit the number of tests you create to 10. If you want to try more comparisons, write more tests.
 Have at least one True and one False result for each of the following:
@@ -16,7 +15,6 @@ or equal to
 
 • Test whether an item is not in an array
 */
-Object.defineProperty(exports, "__esModule", { value: true });
 // Tests for equality with strings
 console.log("Testing for equality with strings.");
 console.log("Ali" == "Ali"); //True
@@ -42,3 +40,4 @@ console.log(arrItems.includes(1)); // True
 console.log("Test whether an item is not in an array.");
 console.log("Is '8' not present in the array?");
 console.log(!arrItems.includes(8)); // True
+export {};
