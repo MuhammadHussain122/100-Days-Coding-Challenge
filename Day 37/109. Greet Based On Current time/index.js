@@ -2,7 +2,7 @@
 Write an if statement that logs "Good Morning" if the current time is before 12 PM.
 */
 function greetBasedOnTime() {
-    var getCurrentTime = new Date().getHours();
+    let getCurrentTime = new Date().getHours();
     if (getCurrentTime >= 5 && getCurrentTime <= 12) {
         console.log("Good Morning");
     }
@@ -18,3 +18,4 @@ function greetBasedOnTime() {
     }
 }
 greetBasedOnTime();
+export {};
