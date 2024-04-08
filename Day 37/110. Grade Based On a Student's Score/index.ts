@@ -19,7 +19,7 @@ async function getPercentageAndGrade() {
   ]);
   let percentage = (inputMarks.obtainedMarks / inputMarks.totalMarks) * 100;
   if (percentage >= 45 && percentage <= 100) {
-    console.log(chalk.green(`percentage: ${percentage}`));
+    console.log(chalk.green(`percentage: ${Math.floor(percentage)}`));
     if (percentage >= 90 && percentage <= 100) {
       console.log(chalk.green(`grade: A+`));
     } else if (percentage >= 85 && percentage <= 89) {
@@ -38,7 +38,7 @@ async function getPercentageAndGrade() {
       console.log(chalk.green(`grade: E`));
     }
   } else if (percentage < 45 && percentage >= 0) {
-    console.log(chalk.red(`percentage: ${percentage}`));
+    console.log(chalk.red(`percentage: ${Math.floor(percentage)}`));
     if (percentage < 45 && percentage >= 0) {
       console.log(chalk.red(`grade: F`));
     } else {
