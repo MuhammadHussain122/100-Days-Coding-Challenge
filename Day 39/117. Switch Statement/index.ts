@@ -1,6 +1,7 @@
 // Uses a switch statement to evaluate the grade and defaults to "Invalid grade" if no match is found.
 
 import inquirer from "inquirer";
+import chalk from "chalk";
 
 async function evaluateGrade() {
 
@@ -13,22 +14,22 @@ async function evaluateGrade() {
     )
     switch (inputGrade.inputUserGrade){   
       case "A":
-        console.log("Excellent");
+        console.log(chalk.green("Excellent"));
         break;
       case "B":
-        console.log("Good");
+        console.log(chalk.green("Good"));
         break;
       case "C":
-        console.log("Satisfactory");
+        console.log(chalk.green("Satisfactory"));
         break;
       case "D":
-        console.log("Nill");
+        console.log(chalk.green("Nill"));
         break;
       case "F":
-        console.log("Fail");
+        console.log(chalk.red("Fail"));
         break;
       default:
-        console.log("Invalid grade");
+        console.log(chalk.red("Invalid grade"));
         break;
     }
 }
