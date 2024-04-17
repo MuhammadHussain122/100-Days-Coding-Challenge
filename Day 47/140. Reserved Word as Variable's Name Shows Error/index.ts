@@ -1,6 +1,4 @@
-/*
-Explain the error that occurs when trying to use a reserved word as a variable name.
-*/
+// Explain the error that occurs when trying to use a reserved word as a variable name.
 
 // let function(){};         // syntax error
 // function let;            // syntax error
