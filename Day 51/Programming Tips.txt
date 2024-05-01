@@ -1,0 +1,22 @@
+Top 10 Programming Tips for Beginners:
+
+1. Practical Learning: Theoretical knowledge must be implemented practically to become habitual of syntax.
+
+2. Consistence Learning: Coding without gaps creates learning rhythm.
+
+3. Avoid Overanalysis: Don't over analyze concepts. Move on to practice to code efficiently.
+
+4. Error Analysis: Error messages contain clues. Read error messages and use them to learn and troubleshoot.
+
+5. MCQ Practice: Solve MCQS to strengthen programming knowledge, and to prepare for interviews.
+
+6. Manual Coding: Write code by hand to improve coding speed and prepare for circumstances like interviews where you may require to code on paper.
+
+7. Read Others code: Read other programmers’ code to learn insights and solutions to problems.
+
+8. Problem-Solving Skills: Continuous work on problem-solving skills are vital for developers at every level.
+
+9. Division of task: Breaking down tasks into smaller parts ensure thorough understanding without mistakes.
+
+10. Mentorship: Find an instructor for guidance and join programming communities for support.
+
