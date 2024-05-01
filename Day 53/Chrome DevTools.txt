@@ -1,0 +1,10 @@
+Chrome DevTools: 
+A powerful set of web developer tools built directly into the Google Chrome browser. 
+
+Features of devTools that can be helpful during web development:
+- Elements Panel (DOM): View and manipulate the Document Object Model (DOM) of a page.
+- CSS Panel: Inspect and modify CSS styles.
+- Console: Log messages , open applications and identify errors.
+- Sources: View and edit files, debug JavaScript, and set up a workspace.
+- Network: Monitor network activities.
+Activate to view larger image,
