@@ -39,6 +39,3 @@ In TypeScript and other object-oriented programming languages:
 3. `Objects` are then created from these classes(blueprint for objects). These objects contain properties (`variables`) which can store both `primitive`(number,string,boolean,null,undefined,symbol,bigint) and `complex data types`(Arrays, Objects,Tuples,Enums,Union Types,Intersection Types,Interfaces,Classes,Functions,Generics,Mapped Types,Literal Types,Type Aliases) as their values.
    The structure of these objects adheres to the syntax provided by the interface.
 4. This process covers a wide range of topics in TypeScript, from the basics of variables to the more complex concepts of interfaces and classes.
-
-Class => abstract
-Object => instance / concrete of that class
