@@ -4,5 +4,6 @@ function calculateCircleArea(radius) {
     return Math.PI * (radius * radius);
 }
 // Calling the function with valid arguments
-var area = calculateCircleArea(3.4);
-console.log("The area of the circle is: ".concat(area.toFixed(2)));
+const area = calculateCircleArea(3.4);
+console.log(`The area of the circle is: ${area.toFixed(2)}`);
+export {};

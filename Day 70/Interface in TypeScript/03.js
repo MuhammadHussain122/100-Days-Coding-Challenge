@@ -1,14 +1,15 @@
 // REOPEN THE INTERFACE AND USE CASES
 // Create an object 'myCar' that adheres to the merged 'vehicle' interface
-var hisCar = {
+const myCar = {
     make: "BWM",
     model: "1 series",
     year: 2016,
-    displayDetails: function (message) {
+    displayDetails(message) {
         console.log(message);
-        console.log("make: ".concat(yourCar.make, ", model: ").concat(yourCar.model, ", year: ").concat(yourCar.year));
+        console.log(`make: ${myCar.make}, model: ${myCar.model}, year: ${myCar.year}`);
     },
     color: "red",
     isNCP: false,
 };
-hisCar.displayDetails("His car details: ");
+myCar.displayDetails("detail of my car: ");
+export {};

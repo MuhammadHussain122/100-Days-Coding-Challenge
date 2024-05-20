@@ -18,7 +18,8 @@ function ManageResponse(status) {
         console.log("Not Found!");
     }
     else {
-        console.log("Recevied status code: ".concat(status));
+        console.log(`Recevied status code: ${status}`);
     }
 }
 ManageResponse(200);
+export {};

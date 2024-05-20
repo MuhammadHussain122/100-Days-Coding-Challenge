@@ -1,18 +1,15 @@
 // GENERICS AND INTERFACES 
 // Generic Class `Collection`
-var Collection = /** @class */ (function () {
-    function Collection() {
-        this.data = [];
-    }
+class Collection {
+    data = [];
     // Method to add an item of type `T` to the collection
-    Collection.prototype.add = function (item) {
+    add(item) {
         this.data.push(item);
-    };
-    return Collection;
-}());
+    }
+}
 // `T` is a placeholder type for the interface. When you implement this interface, you can specify the type.
 // Creating an instance / object of `Collection` with type parameter `Game`
-var itemTwo = new Collection();
+let itemTwo = new Collection();
 itemTwo.add({
     itemType: "Game",
     title: "Uncharted",
@@ -20,3 +17,4 @@ itemTwo.add({
     price: 150,
 });
 console.log(itemTwo);
+export {};

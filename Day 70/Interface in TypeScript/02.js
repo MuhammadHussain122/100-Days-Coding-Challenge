@@ -1,21 +1,22 @@
 // INTERFACE METHOD AND PARAMETERS
-var myCar = {
+const myCar = {
     make: "Toyota",
     model: "Corolla",
     year: 2020,
-    displayDetails: function (message) {
+    displayDetails(message) {
         console.log(message);
-        console.log("make: ".concat(myCar.make, ", model: ").concat(myCar.model, ", year: ").concat(myCar.year));
+        console.log(`make: ${myCar.make}, model: ${myCar.model}, year: ${myCar.year}`);
     },
 };
-var yourCar = {
+const yourCar = {
     make: "BWM",
     model: "1 series",
     year: 2016,
-    displayDetails: function (message) {
+    displayDetails(message) {
         console.log(message);
-        console.log("make: ".concat(yourCar.make, ", model: ").concat(yourCar.model, ", year: ").concat(yourCar.year));
+        console.log(`make: ${yourCar.make}, model: ${yourCar.model}, year: ${yourCar.year}`);
     },
 };
 myCar.displayDetails("Here is the detail of my car: ");
 yourCar.displayDetails("Here is the detail of your car: ");
+export {};

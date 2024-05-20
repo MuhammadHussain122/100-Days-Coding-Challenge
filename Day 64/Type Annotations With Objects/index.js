@@ -1,3 +1,4 @@
+// Type annotations with Objects:
 // Example 1
 let user = {
     userName: "Hussain",
@@ -5,13 +6,11 @@ let user = {
     gender: "male",
 };
 console.log(user);
-console.log(user.userName);
 // Example 2
 let employee = {
     name: "Qamar",
 };
 console.log(employee);
-console.log(employee.name);
 // Example 3
 let greeter;
 greeter = {
@@ -21,5 +20,4 @@ greeter = {
     },
 };
 console.log(greeter);
-console.log(greeter.name);
 export {};

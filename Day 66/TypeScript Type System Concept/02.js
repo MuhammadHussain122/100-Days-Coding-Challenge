@@ -1,5 +1,5 @@
 // LITERAL TYPES
-var state;
+let state;
 console.log(state = "sitting");
 console.log(state = "standing");
 console.log(state = "walking");
@@ -12,5 +12,6 @@ function setvalue(value) {
 console.log(setvalue(0));
 console.log(setvalue(1));
 console.log(setvalue(3));
+export {};
 // Any value other than "0", "1", or "3" causes error.
 // console.log(setvalue(2));

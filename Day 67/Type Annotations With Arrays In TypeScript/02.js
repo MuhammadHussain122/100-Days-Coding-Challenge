@@ -1,26 +1,27 @@
 // TYPE ANNOTATIONS WITH MULTIDIMENSIONAL ARRAYS
-var logicalOperators = [
+let logicalOperators = [
     true || true,
     true || false,
     true && true,
     true && true && false,
 ];
-var logicalOperatorsExamples = [
+let logicalOperatorsExamples = [
     "Ali || Ahmed === Ali",
     "Ali || false === Ali",
     "Ali && Ahmed === Ahmed",
     "Ali && Ahmed && false === false",
 ];
-var logicalOperatorsWithExamples = [
+let logicalOperatorsWithExamples = [
     "Boolean:",
-    "true || true === ".concat(true || true),
-    "true || false ===  ".concat(true || false),
-    "true && true ===  ".concat(true && true),
-    "true && true && false ===  ".concat(true && true && false),
+    `true || true === ${true || true}`,
+    `true || false ===  ${true || false}`,
+    `true && true ===  ${true && true}`,
+    `true && true && false ===  ${true && true && false}`,
     "Examples:",
-    "Ali || Ahmed === ".concat("Ali" || "Ahmed"),
-    "Ali || false === ".concat("Ali" || false),
-    "Ali && Ahmed === ".concat("Ali" || "Ahmed"),
-    "Ali && Ahmed && false === ".concat("Ali" && "Ahmed" && false)
+    `Ali || Ahmed === ${"Ali" || "Ahmed"}`,
+    `Ali || false === ${"Ali" || false}`,
+    `Ali && Ahmed === ${"Ali" || "Ahmed"}`,
+    `Ali && Ahmed && false === ${"Ali" && "Ahmed" && false}`
 ];
 console.log(logicalOperatorsWithExamples);
+export {};

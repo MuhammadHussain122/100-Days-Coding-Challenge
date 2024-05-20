@@ -24,3 +24,4 @@ function infiniteLoop() {
         // This function never exits (infinite loop).
     }
 }
+export {};

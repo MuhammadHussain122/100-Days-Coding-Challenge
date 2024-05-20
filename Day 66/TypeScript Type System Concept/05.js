@@ -1,5 +1,5 @@
-// INTERSECTION TYPE 
-var person = {
+// INTERSECTION TYPE
+const person = {
     name: "Alice",
     fatherName: "John",
     age: 25,
@@ -8,3 +8,4 @@ var person = {
     childrenName: ["Bob", "Rock"],
 };
 console.log(person);
+export {};
