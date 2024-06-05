@@ -28,7 +28,7 @@ Constructor:
 - The constructor is defined using the constructor keyword followed by a parameter list and optional method body.
 Method:
 - A method is a function defined within a class that performs some action or computes some result.
-- Methods are called explicitly by the code that uses the class instance.
+- Methods are invoked / called explicitly by the code that uses the class instance.
 - Unlike the constructor, there can be multiple methods within a class, each serving a specific purpose.
 - Methods can have return types specifying the type of value they return, or they can have a void return type if they don't return anything.
 - Methods can accept parameters to perform actions based on the provided inputs.

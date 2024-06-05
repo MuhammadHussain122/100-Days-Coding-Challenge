@@ -27,7 +27,7 @@
 
 6. ## Abstract Classes and Members:
    Serve as blueprints, cannot be instantiated directly, and can contain abstract methods.
-   Abstract classes in TypeScript serve as blueprints for other classes. They define the structure and behavior that subclasses should adhere to, but they cannot be instantiated directly themselves. Additionally, abstract classes can contain abstract methods, which are methods without a concrete implementation.
+   Abstract classes in TypeScript serve as blueprints for other classes. They define the structure and behavior that subclasses should adhere to, but they cannot be instantiated(object creation) directly themselves. Additionally, abstract classes can contain abstract methods, which are methods without a concrete implementation.
 
 Let's break down each aspect:
 
